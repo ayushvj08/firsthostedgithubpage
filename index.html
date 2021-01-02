@@ -4,16 +4,38 @@
         <title>
             My Site!
         </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
         <style>
-            div{
-                
+            body{
+                background-repeat: no-repeat;
+            }
+             #welcome-message{
+                border-radius: 10px;
                 display:flex;
                 justify-content: center;
                 align-content: center;
                 background-color: aqua;
             }
-
-            
+            a{
+                text-decoration: none;
+            }   
+            #gp:hover{
+                color:rgb(0, 0, 190);
+                align-self: center;
+                padding: 20px;
+                margin: 10px;
+                transform: scale(2);
+                
+            }         
+            h2:hover{
+               transform: scale(1.08);
+                border: rgb(255, 68, 0);
+                color: rgb(255, 40, 2);
+            }
+            h3{
+                align-items: center;
+            }
             button{
                 width: 180px;
                 height: 60px;
@@ -23,21 +45,32 @@
                 font-size: 20px;
             }
             button:hover{
-                text-transform: uppercase;
-                background-color: red;
+                color: white;
+                transform: scale(1.05);
+                background-color: rgb(235, 79, 17);
+                border: blue;
+            }
+            .audi{
+               background-color: #000;
+               border-radius: 10px;
+            }
+            #audi{
+                border-radius: 20px;
             }
         </style>
     </head>
-    <body>
-        <div>
-        <h2>Welcome Visitor! Greetiings from</h2>
+    <body background="windows.jpg" style="background-size: cover;">
+        <div id ="welcome-message">
+        <h2><a href ="C:\Users\ayush\hello\hello_world.html" >Welcome Visitor! Greetings from</a>  &nbsp&nbsp </h2>
         <a href ="https://www.facebook.com/profile.php?id=100009856060662">
         <button>
             Ayush Vijayant
         </button></a>
         </div>
         <h3>
-            This is my GitHub Pages Website!
-        </h3>
+           <a id="gp" style="color: rgb(255, 255, 255); font-family: Montserrat;" href="https://github.com/ayushvj08"> This is my GitHub Pages Website! ❤</a>
+        </h3><center>
+            <div class ="audi">
+        <img id="audi" alt ="audi car" src = "audi.jpg" width = "1000px" height = "580px"></center></div>
     </body>
 </html>
