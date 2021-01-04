@@ -1,0 +1,49 @@
+body{
+    background-repeat: no-repeat;
+}
+ #welcome-message{
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}   
+#gp:hover{
+    color:rgb(0, 0, 190);
+    align-self: center;
+    padding: 20px;
+    margin: 10px;
+    transform: scale(2); 
+}         
+h2:hover{
+   transform: scale(1.08);
+    border: rgb(255, 68, 0);
+    color: rgb(255, 40, 2);
+}
+h3{
+    align-items: center;
+}
+button{
+    width: 180px;
+    height: 60px;
+    background-color:transparent;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    transform: scale(1.05);
+    background-color: rgb(235, 79, 17);
+    border: blue;
+}
+.audi{
+   background-color: #000;
+   border-radius: 10px;
+}
+#audi{
+    border-radius: 20px;
+}
